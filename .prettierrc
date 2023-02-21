@@ -1,0 +1,9 @@
+{
+    "singleQuote": true,
+    "printWidth": 190,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
+}

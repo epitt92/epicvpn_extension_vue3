@@ -1,0 +1,212 @@
+@for $i from 0 through 80 {
+    .mt {
+        &-#{$i}px {
+            margin-top: #{$i}px !important;
+        }
+    }
+
+    .mb {
+        &-#{$i}px {
+            margin-bottom: #{$i}px !important;
+        }
+    }
+
+    .mr {
+        &-#{$i}px {
+            margin-right: #{$i}px !important;
+        }
+    }
+
+    .ml {
+        &-#{$i}px {
+            margin-left: #{$i}px !important;
+        }
+    }
+
+    .pt {
+        &-#{$i}px {
+            padding-top: #{$i}px !important;
+        }
+    }
+
+    .pb {
+        &-#{$i}px {
+            padding-bottom: #{$i}px !important;
+        }
+    }
+
+    .pr {
+        &-#{$i}px {
+            padding-right: #{$i}px !important;
+        }
+    }
+
+    .pl {
+        &-#{$i}px {
+            padding-left: #{$i}px !important;
+        }
+    }
+}
+
+.m {
+    &-0 {
+        margin: 0;
+    }
+
+    &-x-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.p {
+    &-0 {
+        padding: 0;
+    }
+}
+
+.opacity {
+    &-0 {
+        opacity: 0;
+    }
+
+    &-1 {
+        opacity: 1;
+    }
+}
+
+.font {
+    &-bold {
+        font-family: $fontB;
+    }
+
+    &-medium {
+        font-family: $fontM;
+    }
+}
+
+.cursor {
+    &-pointer {
+        cursor: pointer;
+    }
+}
+
+.width {
+    &-100 {
+        width: 100%;
+    }
+
+    &-auto {
+        width: auto;
+    }
+}
+
+@for $i from 0 through 80 {
+    .width {
+        &-#{$i}px {
+            width: #{$i}px !important;
+        }
+    }
+}
+
+.height {
+    &-100 {
+        height: 100%;
+    }
+}
+
+@for $i from 0 through 80 {
+    .height {
+        &-#{$i}px {
+            height: #{$i}px !important;
+        }
+    }
+}
+
+@for $i from 0 through 24 {
+    .br {
+        &-#{$i}px {
+            border-radius: #{$i}px;
+        }
+    }
+}
+
+@for $i from 0 through 20 {
+    .right {
+        &-#{$i}px {
+            right: #{$i}px;
+        }
+    }
+}
+
+.color {
+    &-green {
+        color: $colorGreen;
+    }
+
+    &-error {
+        color: $colorError;
+    }
+
+    &-dark-blue {
+        color: $colorDarkBlue;
+    }
+
+    &-dark-grey-secondary {
+        color: $colorDarkGreySecondary;
+    }
+
+    &-paragraph {
+        color: $colorParagraph;
+    }
+
+    &-blue {
+        color: $colorBlue;
+    }
+
+    &-grey {
+        color: $colorGrey;
+    }
+}
+
+.font-size {
+    &-base {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    &-small {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.transition-primary {
+    transition: $transitionPrimary;
+}
+
+.text {
+    &-align {
+        &-center {
+            text-align: center;
+        }
+
+        &-right {
+            text-align: right;
+        }
+    }
+
+    &-underline {
+        text-decoration: underline !important;
+    }
+}
+
+.pointer-events {
+    &-none {
+        pointer-events: none;
+    }
+}

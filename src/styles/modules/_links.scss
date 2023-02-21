@@ -1,0 +1,31 @@
+.link {
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &--unstyled {
+        color: $colorBlack;
+        &:hover {
+            color: $colorBlack;
+            text-decoration: none;
+        }
+    }
+
+    &--blue {
+        color: $colorBlue;
+    }
+
+    &--paragraph {
+        color: $colorParagraph;
+    }
+
+    &--white {
+        color: $colorWhite;
+        &:hover {
+            color: $colorWhite;
+        }
+    }
+}
